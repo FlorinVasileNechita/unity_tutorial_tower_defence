@@ -43,8 +43,6 @@ public class CameraController : MonoBehaviour {
 
 		pos.y = Mathf.Clamp (pos.y, minY, maxY);
 
-		Debug.Log (pos.y);
-
 		transform.position = pos;
 
 	}
